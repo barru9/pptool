@@ -1,0 +1,10 @@
+Package: pptool
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: Kirlif'
+Version: 1.4
+Homepage: https://t.me/SaltSoupGarage
+Pre-Depends: python (>=3.11), python (<<3.12)
+Description: Reverse engineering tool for flutter APKs
+ It finds the loading addresses of a Dart object in libapp.so
+ through its pool pointer offset and allows for object replacement.
